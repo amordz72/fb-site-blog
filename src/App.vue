@@ -5,8 +5,9 @@ import AppHeader from './components/AppHeader.vue'
 </script>
 
 <template>
- 
-  <AppHeader msg="Navbar" />
+   <AppHeader msg="Navbar" />
+  <router-view></router-view>
+
 </template>
 
 <style>
